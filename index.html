@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Equipo</title>
+    <link rel="stylesheet" href="estilos_barra_nav.css">
+    <script src="script.js"></script>
+    <head>
+        <link rel="icon" href="imagenes/logo.png" type="image/x-icon">
+        <!-- También puedes usar otros tipos de archivo como PNG -->
+        <!-- <link rel="icon" href="favicon.png" type="image/png"> -->
+    </head>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="barra-navegacion">
+        <div class="contenedor-nav">
+            <div class="logo">
+                <a href="#">
+                    <span>EL CLUB DE SALTA</span>
+                </a>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="estadisticas.html">Estadísticas</a></li>
+                    <li><a href="jugadores.html">Jugadores</a></li>
+                    <li><a href="#">Campeonato</a></li>
+                </ul>
+            </nav>
+            <div class="menu-movil">
+                <button class="menu-movil-btn">☰</button>
+            </div>
+        </div>
+    </header>
+
+    
+<main class="contenido-principal">
+        <section class="hero">
+            <h1>Bienvenido al stio de Gimnasia Y Tiro</h1>
+            <p>Explora toda la información de nuestro club.</p>
+        </section>
+        <button id="openModal">Ver Metodología</button>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Metodología de Recolección de Datos</h2>
+                <p>Utilizo un enfoque riguroso y sistemático para recolectar datos estadísticos durante los partidos. A continuación, se describe la metodología utilizada para garantizar la precisión y consistencia de los datos.</p>
+                
+                <h3>Proceso de recolección de datos</h3>
+                <ul>
+                    <li><strong>Revisión en diferido del partido:</strong> Reviso el partido en diferido, lo que me permite detener, retroceder y avanzar el video para garantizar una precisa recolección de datos.</li>
+                    <li><strong>Conteo de acciones:</strong> Contabilizo las acciones de cada jugador, incluyendo pases, quites, tiros, entre otros.</li>
+                </ul>
+    
+                <h3>Criterios de registro de acciones</h3>
+                <ul>
+                    <li><strong>Pases:</strong> Se cuenta cuando la pelota parte de un jugador y es recibida por un compañero.</li>
+                    <li><strong>Quites y despejes:</strong> Se registra cuando un jugador interrumpe el avance del rival.</li>
+                    <li><strong>Pases clave:</strong> Pase que genera una oportunidad clara de gol.</li>
+                    <li><strong>Tiros:</strong> Se registra cada intento de remate al arco.</li>
+                </ul>
+    
+                <h3>Margen de error</h3>
+                <p>Puede existir un margen de error de ±2 pases y quites debido a la subjetividad en ciertas acciones.</p>
+    
+                <h3>Conclusión</h3>
+                <p>Me esfuerzo por brindar análisis detallados y precisos para los aficionados y entusiastas del fútbol.</p>
+            </div>
+        </div>
+    
+        <section class="seccion-principal">
+            <div class="contenedor-cards">
+                <div class="card">
+                    <a href="estadisticas.html">
+                        <img src="imagenes/estadisticas.png" alt="Estadísticas">
+                        <h3>Estadísticas</h3>
+                        <p>Consulta las estadísticas detalladas de jugadores y partidos.</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="jugadores.html">
+                        <img src="imagenes/jugadores.png" alt="Jugadores">
+                        <h3>Jugadores</h3>
+                        <p>Conoce a la plantilla, perfiles y rendimiento de cada jugador.</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="campeonato.html">
+                        <img src="imagenes/campeonato.png" alt="Campeonato">
+                        <h3>Campeonato</h3>
+                        <p>Sigue la tabla de posiciones, resultados y calendario del torneo.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>📌 Datos actualizados en tiempo real. Fuente: Club Gimnasia y Tiro - Temporada 2025.</p>
+    <p>📊 Sitio desarrollado por SebastianRPDev | 
+    <p>⚽ Estadísticas detalladas de jugadores, rendimiento y análisis de cada partido.</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
