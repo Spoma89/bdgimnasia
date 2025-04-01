@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin:0px;
     font-family: sans-serif;
     background-color: #f4f4f4; /* Un fondo gris claro */
     color: #333;
@@ -370,7 +370,7 @@ footer {
 }
 
 .plantilla-jugadores h2 {
-    color: #000080;
+    color: #29292c;
     margin-top: 0;
     margin-bottom: 20px;
     text-align: center;
@@ -385,11 +385,11 @@ footer {
 .plantilla-jugadores th, .plantilla-jugadores td {
     padding: 10px 15px;
     text-align: left;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #426bf1;
 }
 
 .plantilla-jugadores th {
-    background-color: #f2f2f2;
+    background-color: #7d8dd3;
     font-weight: bold;
 }
 
@@ -470,7 +470,7 @@ button:active {
     cursor: pointer;
 }
 h2 {
-    margin-left: 25px;
+    margin-left: 6%;
     color: #333;
 }
 
@@ -503,7 +503,7 @@ tr:hover {
 
 td:nth-child(13) {
     font-weight: bold;
-    color: #007BFF;
+    color: #4591e2;
 }
 .boton-descarga {
     display: inline-block;
@@ -515,9 +515,13 @@ td:nth-child(13) {
     background-color: #007bff;
     border-radius: 5px;
     transition: background 0.3s ease;
-    margin-left: 25px;
+    margin-left: 6%;
 }
 
 .boton-descarga:hover {
     background-color: #0056b3;
+}
+hr.separador{
+    height: 10px;
+   background-color: #1075e0;
 }
