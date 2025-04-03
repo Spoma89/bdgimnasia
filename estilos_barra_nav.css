@@ -529,3 +529,7 @@ hr.separador{
     height: 10px;
    background-color: #1075e0;
 }
+.lesionado {
+    color: red;
+    font-weight: bold;
+  }
